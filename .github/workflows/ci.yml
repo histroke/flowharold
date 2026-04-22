@@ -31,4 +31,4 @@ jobs:
         run: node --check src/app.js
 
       - name: Ejecutar tests
-        run: npm test
+        run: npm app.test.js
