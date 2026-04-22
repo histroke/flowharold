@@ -1,24 +1,19 @@
-function saludar(nombre) {
+export function saludar(nombre) {
   return `Hola ${nombre}`;
 }
 
-function estadoSistema() {
+export function despedir(nombre) {
+  return `Adiós ${nombre}`;
+}
+
+export function estadoSistema() {
   return "OK";
 }
 
-function sumar(a, b) {
+export function sumar(a, b) {
   return a + b;
 }
 
-function healthCheck() {
-  return {
-    status: "UP"
-  };
+export function restar(a, b) {
+  return a - b;
 }
-
-module.exports = {
-  saludar,
-  estadoSistema,
-  sumar,
-  healthCheck
-};

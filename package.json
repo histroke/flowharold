@@ -1,7 +1,10 @@
 {
-  "name": "FlowCodeAngel",
+  "name": "flowcodeangel",
   "version": "1.0.0",
+  "description": "Proyecto básico en Node.js para practicar flujo de trabajo con Git y GitHub",
+  "type": "module",
   "scripts": {
-    "test": "node test/app.test.js"
+    "test": "node test/app.test.js",
+    "start": "node src/app.js"
   }
 }
