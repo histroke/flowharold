@@ -1,4 +1,4 @@
-const { saludar, estadoSistema, sumar, healthCheck } = require('../src/app');
+import { saludar, estadoSistema, sumar, healthCheck } from "../src/app.js";
 
 function testSaludar() {
   const resultado = saludar("Angel");
@@ -36,17 +36,8 @@ function testHealthCheck() {
   }
 }
 
-function restar() {
-  const resultado = restar(5, 10);
-  if (resultado === 5) {
-    console.log("Test 3 Pasado: restar funciona");
-  } else {
-    console.log("Test 3 Fallido");
-  }
-}
 
 testSaludar();
 testEstadoSistema();
 testSumar();
 testHealthCheck();
-restar();

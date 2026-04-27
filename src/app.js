@@ -14,6 +14,9 @@ export function sumar(a, b) {
   return a + b;
 }
 
-export function restar(a, b) {
+export function restar(a, b) {s
   return a - b;
+}
+export function healthCheck() {
+  return { status: "UP" };
 }
